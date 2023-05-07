@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rock01
+  m_Shader: {fileID: -6465566751694194690, guid: f393141888950474fbcdafc4db9f293a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2412d75a7f4a41f98295b0a4fce924ca:
+        m_Texture: {fileID: 2800000, guid: d9d79c61be199044f9ea4dc8ba80b46f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6708ba4fa9e44aec864ca2f37a00fbb3:
+        m_Texture: {fileID: 2800000, guid: 3c0cf1a879e28954d97208f860613351, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_138f6efa1e184f5cac6cd9e3c3f83fad: 0.2
+    - Vector1_6b6d00f0ec574b1098cef0f02efcdc29: 0
+    - Vector1_7028104c4a70402a895c3c46ece80ae2: 1
+    - Vector1_d8aa3cc3dcc644db9000f880ff59627a: 1.2
+    m_Colors: []
+  m_BuildTextureStacks: []
