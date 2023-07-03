@@ -87,7 +87,6 @@ public class Player : MonoBehaviour
         Cameraman.transform.eulerAngles = new Vector3(CameraY, Cameraman.transform.eulerAngles.y, 0);
         Cameraman.transform.GetChild(0).transform.localPosition = new Vector3(0, 1.15f, Zoom);
     }
-    /*
     void CreateRipple(int Start, int End, int Delta, float Speed, float Size, float Lifetime)
     {
         Vector3 forward = ripple.transform.eulerAngles;
@@ -102,11 +101,13 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.layer == 4 && VelocityY > 0.03f)
+        if(other.gameObject.layer == 4 && Mathf.Abs(VelocityY) > 0.1f && !isGround.collider)
         {
-            CreateRipple(-180, 180, 2, 5, 3f, 3);
+            //CreateRipple(-180, 180, 2, 5, 3f, 3);
+            ripple.Emit(transform.position, Vector3.zero, 5, 0.1f, Color.white);
         }
     }
+    /*
     private void OnTriggerStay(Collider other)
     {
         if(other.gameObject.layer == 4 && VelocityXZ > 0.025f && Time.renderedFrameCount % 3 == 0)
@@ -115,12 +116,13 @@ public class Player : MonoBehaviour
             CreateRipple(y-100, y+100, 3, 5f, 2.65f, 3f);
         }
     }
+    */
     private void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.layer == 4 && VelocityY > 0.03f)
+        if(other.gameObject.layer == 4 && Mathf.Abs(VelocityY) > 0.1f && !isGround.collider)
         {
-            CreateRipple(-180, 180, 2, 5, 3f, 3);
+            //CreateRipple(-180, 180, 2, 5, 3f, 3);
+            ripple.Emit(transform.position, Vector3.zero, 5, 0.1f, Color.white);
         }
     }
-    */
 }

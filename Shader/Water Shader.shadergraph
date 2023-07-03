@@ -85,9 +85,6 @@
             "m_Id": "4e38f3f045584407ae90461eb6101756"
         },
         {
-            "m_Id": "dcfd3a7a4c3b425aae452d557ed07b9c"
-        },
-        {
             "m_Id": "5dc28df62d784179b3948d11d81d155e"
         }
     ],
@@ -12317,29 +12314,6 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
-    }
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "dcfd3a7a4c3b425aae452d557ed07b9c",
-    "m_Guid": {
-        "m_GuidSerialized": "ffa5252f-1477-4a23-9ab9-b050c2dd0fd3"
-    },
-    "m_Name": "Ripple Reflaction",
-    "m_DefaultReferenceName": "Vector1_dcfd3a7a4c3b425aae452d557ed07b9c",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": false,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 1.0,
-    "m_FloatType": 0,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 1.0
     }
 }
 
