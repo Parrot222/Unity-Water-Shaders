@@ -45,7 +45,7 @@ Shader "Unlit/RippleShader"
             {
                 float3 e = float3(_CurrentRT_TexelSize.xy,0);
                 float2 uv = i.uv;
-                float speed = 2.0f;
+                float speed = 1.0f;
 
                 float p10 = tex2D(_CurrentRT, uv - e.zy * speed).x;
                 float p01 = tex2D(_CurrentRT, uv - e.xz * speed).x;
@@ -55,7 +55,7 @@ Shader "Unlit/RippleShader"
                 float p11 = tex2D(_PrevRT, uv).x;
 
                 float d = (p10 + p01 + p21 + p12)/2 - p11;
-                d *= 0.992f;
+                d *= 0.99f;
                 return d;
             }
             ENDCG
