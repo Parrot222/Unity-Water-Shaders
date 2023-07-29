@@ -6,7 +6,9 @@ This repository contains a variety of shaders and models that I have showcased i
 ## Water ripple effect
 ![image](https://github.com/Parrot222/Unity-Water-Shaders/blob/main/unity-interactive-water-test.gif)  
 (↑↑ Git Animation ↑↑)
-
+  
+----------------------------------------------------------------------------------------------
+## How to use it?
   
 If you want to test these in your project but don't know where to start, there is a video demonstrating the complete installation process. You can follow along with the steps in the video at your own pace. If you encounter any issues, leave a comment below the video or ask me on my Discord for assistance.  
   
