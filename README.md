@@ -11,6 +11,6 @@ Link: [https://www.youtube.com/channel/UCk40GxGMx3C8ILsCrwSqp0Q ](https://youtu.
 Unity version : URP 2020.3.26f1  
 Discord : paro456d  
   
-## Gif Animation
+## GIF Animation
 ![image](https://github.com/Parrot222/Unity-Water-Shaders/blob/main/unity-interactive-water-test.gif)  
-(↑↑ Git Animation ↑↑)
+(↑↑ GIF Animation ↑↑)
